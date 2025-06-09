@@ -3,12 +3,12 @@
 # pip install streamlit
 
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import streamlit as st
 from langchain_openai import ChatOpenAI
 
 # 환경변수 로드
-load_dotenv()
+#load_dotenv()
 
 # Streamlit 앱 설정
 st.title("인공지능 시인")
